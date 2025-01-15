@@ -8,3 +8,7 @@ elif temp_typ == "C":
     print(fahrenheit)
 else:
     print("Du har inte något val!")
+if (temp_typ == "C" and temp_grad < 10) or (temp_typ == "F" and celsius < 10 ):
+    print("Ta på dig vinterkläder!")
+elif (temp_typ == "C" and temp_grad >= 20) or ( temp_typ == "F" and celsius >= 20):        
+    print("Packa badkläder!")
