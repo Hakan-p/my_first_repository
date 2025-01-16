@@ -26,17 +26,17 @@ tal1_lika_tal2 = tal1 == tal2
 tal2_lika_tal3 = tal2 == tal3 
 tal3_lika_tal1 = tal3 == tal1
 if box1_mittersta:
-    print("Tal1 är det mittersta") 
+    print("tal1 är det mittersta") 
 elif box2_mittersta:
-    print("Tal2 är det mittersta")
+    print("tal2 är det mittersta")
 elif box3_mittersta:
-    print("Tal3 är det mittersta")
+    print("tal3 är det mittersta")
 elif tal1_lika_tal2_lika_tal3 :
     print("Alla tal är lika")
 elif tal1_lika_tal2 == True:
-    print("Tal1 och tal2 är lika") 
+    print("tal1 och tal2 är lika") 
 elif tal2_lika_tal3 == True:
-    print("Tal2 och tal3 är lika")       
+    print("tal2 och tal3 är lika")       
 elif tal3_lika_tal1 == True:
-        print("Tal3 och tal1 är lika")
+        print("tal3 och tal1 är lika")
 
