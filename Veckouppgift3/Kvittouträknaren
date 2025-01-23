@@ -1,0 +1,19 @@
+svar = ""
+total=0
+antal_personer = 1
+default_dricks = 10
+dricks = 0
+print("Välkommen till Kvittokompis! Avsluta genom att skriva: quit")
+while svar != "quit":
+    svar = input("Skriv in ett belopp:")
+    if svar != "quit":
+        total = total+ int(svar)
+    else:
+        print(f"Det blir {total} kr totalt. Välkommen åter!")
+antal_personer = int(input("Hur många är ni?"))
+person_fordelat = float(total / antal_personer)             
+print(f"Det blir {total} kr totalt, alltså {person_fordelat} kr per person. Välkommen åter!")
+dricks = (input("Hur många procent dricks vill ni ge?"))
+if dricks == "":
+    dricks = int(default_dricks)
+print(f"Då blir totalen {total*(1-dricks/100)} kr att betala")

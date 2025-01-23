@@ -1,0 +1,23 @@
+totalt = [1,-2,3,-2,4,-3]
+total_summa = sum(totalt)
+print(total_summa)
+
+filmer = ["up and running","Lassie","kalle anka","jönssonligan"]
+filmer.append("Fellowship of the ring")
+filmer.insert(0 ,"The two towers")
+print(filmer.index("Lassie"))
+print(filmer) 
+borttagen = filmer.pop(3)
+print(borttagen)
+print(len(filmer))
+print(borttagen)
+print(filmer)
+filmer.insert(0,"kalle anka")
+print(filmer)
+filmer.reverse()
+print(filmer)
+lista = ["A","B","C","D"]
+lista.sort()
+print(lista)
+filmer.sort()
+print(filmer)

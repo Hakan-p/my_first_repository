@@ -1,0 +1,10 @@
+#answer = 0
+#for i in range(100):
+ #   answer += i+1
+#print(" Summan av talen 1 till 10 är: "  + str(answer))    
+i = 0
+answer = 0
+while  i < 100:
+    answer += i+1
+    i += 1
+print(" Summan av talen 1 till 10 är: "  + str(answer))     
