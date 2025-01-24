@@ -17,4 +17,3 @@ dricks = (input("Hur många procent dricks vill ni ge?"))
 if dricks == "":
     dricks = int(default_dricks)
 print(f"Då blir totalen {total*(1-dricks/100)} kr att betala")
-###
