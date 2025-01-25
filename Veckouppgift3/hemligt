@@ -6,7 +6,7 @@ secret = random.randint(1, 100)
 gissa_tal = int(input("Gissa ett tal mellan 1 - 100? :"))
 while check == False :
     raknare += 1
-    print(secret)
+    #print(secret)
     if gissa_tal == secret :
         check = True
     else:
