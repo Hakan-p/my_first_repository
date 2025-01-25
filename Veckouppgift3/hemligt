@@ -1,0 +1,22 @@
+import random
+raknare = 0
+check = False
+svar = ""
+secret = random.randint(1, 100)
+gissa_tal = int(input("Gissa ett tal mellan 1 - 100? :"))
+while check == False :
+    raknare += 1
+    print(secret)
+    if gissa_tal == secret :
+        check = True
+    else:
+        check = False
+        if abs(gissa_tal - secret) <= 5:
+            svar = "är hett"        
+        elif gissa_tal > secret:
+            svar = "är för Stort"
+        elif gissa_tal < secret:
+            svar = "är för Lågt"    
+
+        gissa_tal = int(input(f"Talet {svar}! Gissa igen på ett tal mellan 1 - 100? : "))        
+print(f"Rätt svar {gissa_tal}. Du klarade det på {raknare} gånger !")
